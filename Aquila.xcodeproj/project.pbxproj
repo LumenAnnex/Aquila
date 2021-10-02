@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		4B7E557927087BB400454AD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E557827087BB400454AD0 /* AppDelegate.m */; };
-		4B7E557C27087BB400454AD0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E557B27087BB400454AD0 /* SceneDelegate.m */; };
-		4B7E557F27087BB400454AD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E557E27087BB400454AD0 /* ViewController.m */; };
 		4B7E558227087BB400454AD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7E558027087BB400454AD0 /* Main.storyboard */; };
 		4B7E558427087BB600454AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7E558327087BB600454AD0 /* Assets.xcassets */; };
 		4B7E558727087BB600454AD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7E558527087BB600454AD0 /* LaunchScreen.storyboard */; };
 		4B7E558A27087BB600454AD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E558927087BB600454AD0 /* main.m */; };
+		4B7E559227087CE600454AD0 /* AQLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E559127087CE600454AD0 /* AQLBaseViewController.m */; };
+		4B7E559827087DE500454AD0 /* AQLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E559727087DE500454AD0 /* AQLRenderer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B7E557427087BB400454AD0 /* Aquila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aquila.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7E557727087BB400454AD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B7E557827087BB400454AD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4B7E557A27087BB400454AD0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4B7E557B27087BB400454AD0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		4B7E557D27087BB400454AD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4B7E557E27087BB400454AD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4B7E558127087BB400454AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B7E558327087BB600454AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B7E558627087BB600454AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B7E558827087BB600454AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B7E558927087BB600454AD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B7E559027087CDA00454AD0 /* AQLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQLBaseViewController.h; sourceTree = "<group>"; };
+		4B7E559127087CE600454AD0 /* AQLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQLBaseViewController.m; sourceTree = "<group>"; };
+		4B7E559627087DDA00454AD0 /* AQLRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQLRenderer.h; sourceTree = "<group>"; };
+		4B7E559727087DE500454AD0 /* AQLRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQLRenderer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +61,43 @@
 		4B7E557627087BB400454AD0 /* Aquila */ = {
 			isa = PBXGroup;
 			children = (
-				4B7E557727087BB400454AD0 /* AppDelegate.h */,
-				4B7E557827087BB400454AD0 /* AppDelegate.m */,
-				4B7E557A27087BB400454AD0 /* SceneDelegate.h */,
-				4B7E557B27087BB400454AD0 /* SceneDelegate.m */,
-				4B7E557D27087BB400454AD0 /* ViewController.h */,
-				4B7E557E27087BB400454AD0 /* ViewController.m */,
+				4B7E559327087DA000454AD0 /* Application */,
+				4B7E559527087DC500454AD0 /* Renderer */,
+				4B7E559427087DB000454AD0 /* Resources */,
 				4B7E558027087BB400454AD0 /* Main.storyboard */,
-				4B7E558327087BB600454AD0 /* Assets.xcassets */,
 				4B7E558527087BB600454AD0 /* LaunchScreen.storyboard */,
 				4B7E558827087BB600454AD0 /* Info.plist */,
-				4B7E558927087BB600454AD0 /* main.m */,
 			);
 			path = Aquila;
+			sourceTree = "<group>";
+		};
+		4B7E559327087DA000454AD0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4B7E557727087BB400454AD0 /* AppDelegate.h */,
+				4B7E557827087BB400454AD0 /* AppDelegate.m */,
+				4B7E558927087BB600454AD0 /* main.m */,
+				4B7E559027087CDA00454AD0 /* AQLBaseViewController.h */,
+				4B7E559127087CE600454AD0 /* AQLBaseViewController.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4B7E559427087DB000454AD0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B7E558327087BB600454AD0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4B7E559527087DC500454AD0 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				4B7E559627087DDA00454AD0 /* AQLRenderer.h */,
+				4B7E559727087DE500454AD0 /* AQLRenderer.m */,
+			);
+			path = Renderer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B7E557F27087BB400454AD0 /* ViewController.m in Sources */,
 				4B7E557927087BB400454AD0 /* AppDelegate.m in Sources */,
+				4B7E559827087DE500454AD0 /* AQLRenderer.m in Sources */,
+				4B7E559227087CE600454AD0 /* AQLBaseViewController.m in Sources */,
 				4B7E558A27087BB600454AD0 /* main.m in Sources */,
-				4B7E557C27087BB400454AD0 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +326,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,6 +354,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
