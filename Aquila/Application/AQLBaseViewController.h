@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AQLBaseViewController : UIViewController
-
+@interface AQLBaseViewController : UITableViewController
 
 @end
